@@ -130,7 +130,7 @@ class ReAnimator {
     void reanimate();
 
   private:
-    void run_pattern(Pattern pattern);
+    int8_t run_pattern(Pattern pattern);
     void apply_overlay(Overlay overlay);
 
 // ++++++++++++++++++++++++++++++
